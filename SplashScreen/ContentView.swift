@@ -12,12 +12,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         
-        VStack {
-         
+        ZStack {
+            Color.black
+            
         }
-        .preferredColorScheme(.dark)
+        .ignoresSafeArea()
     }
 }
 
