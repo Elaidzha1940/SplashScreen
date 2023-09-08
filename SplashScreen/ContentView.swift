@@ -16,7 +16,7 @@ struct ContentView: View {
     var body: some View {
         
         ZStack {
-            Color.black
+            Color("geogray")
             
             VStack(spacing: 30) {
                 Image("walkinggirl")
